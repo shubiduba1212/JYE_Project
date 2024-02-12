@@ -100,7 +100,7 @@ public class Bartender extends Bar {
     //고객의 답변을 토대로한 고객의 선택내용 정리
     System.out.println("기분이 " + strArr[0] + "컨디션이 " + strArr[1] + strArr[2] + "고객님께");
     System.out.println("다음과 같은 음료를 추천드립니다 : " + selectDrinks(intArr));
-    System.out.println("메뉴가 맘에 드신다면 주문해주시고 아니면 다시 추천드리겠습니다.");
+    System.out.println("메뉴가 마음에 드신다면 주문해주시고 아니면 다시 추천드리겠습니다.");
   }
 
 

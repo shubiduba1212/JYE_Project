@@ -156,7 +156,6 @@ public class Application {
       } else { // 입력한 숫자가 1~4의 범위 내인 경우
         //입력한 번호에 해당하는 답변을 setter로 필드값 변경 저장
         customer.bartender.setAnswer1(selectNum1);
-        System.out.println("고객님께서 선택하신 답 : " + customer.bartender.getAnswer1());
         break; // while문 벗어나서 다음 질문으로 이동
       }
     }
@@ -171,7 +170,6 @@ public class Application {
       } else {  // 입력한 숫자가 1~4의 범위 내인 경우
         //입력한 번호에 해당하는 답변을 setter로 필드값 변경 저장
         customer.bartender.setAnswer2(selectNum1);
-        System.out.println("고객님께서 선택하신 답 : " + customer.bartender.getAnswer2());
         break; // while문 벗어나서 다음 질문으로 이동
       }
     }
@@ -186,7 +184,6 @@ public class Application {
       } else { // 입력한 숫자가 1~4의 범위 내인 경우
         //입력한 번호에 해당하는 답변을 setter로 필드값 변경 저장
         customer.bartender.setAnswer3(selectNum1);
-        System.out.println("고객님께서 선택하신 답 : " + customer.bartender.getAnswer3());
         break;  // while문 벗어나서 다음 질문으로 이동
       }
     }
